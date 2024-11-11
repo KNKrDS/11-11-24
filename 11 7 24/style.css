@@ -1,0 +1,43 @@
+body{
+    font-family: cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: gold;
+}
+.container{
+    background-color: aquamarine;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px black;
+    text-align: center;
+    width: 300px;
+}
+h1{
+    color: blueviolet;
+}
+form>div{
+    margin: 10px 0;
+}
+select {
+    width: 100%;
+    padding: 8px;
+}
+button {
+    background-color: rgb(129, 129, 129);
+    color: #ffff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+button:hover{
+    background-color: darkgreen;
+}
+#result{
+    margin-top: 15px;
+    font-weight: bold;
+    color: #333;
+}
